@@ -1,6 +1,2 @@
-
-git add .
-date=`date`
-git commit -m "$date"
-git push origin master
+sh ./scripts/push.sh
 npm run github:deploy
